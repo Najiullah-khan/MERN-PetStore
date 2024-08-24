@@ -1,0 +1,157 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.aboutus{
+
+  margin-bottom: 50px;
+}
+
+header {
+  background-color: rgb(255, 250, 250);
+  color: purple;
+  padding: 10px;
+}
+.button {
+  background-color: purple;
+  color: rgb(255, 250, 250);
+}
+.button:hover {
+  background-color: rgb(170, 16, 170);
+  color: rgb(255, 250, 250);
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav {
+  background-color: purple;
+}
+
+nav li {
+  flex: 1;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 20px;
+}
+
+nav a:hover {
+  background-color: rgb(231, 96, 231);
+  border-radius: 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: purple;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.card {
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  /* text-align: center; */
+  width: 300px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+.c {
+  /* height: 40vh; */
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+}
+.sha {
+  height: 400px;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.img {
+  height: 250px;
+}
+.item {
+  list-style: none;
+
+  padding-left: 0;
+}
+.title {
+  font-weight: bold;
+}
+.heading {
+  text-align: center;
+  color: purple;
+  font-weight: bolder;
+  margin: 15px 0;
+}
+.btn {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 15px;
+
+
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer li {
+  margin-left: 3%;
+  margin-right: 3%;
+  display: inline;
+
+  text-align: center;
+}
+.container {
+  width: 50vw;
+  margin-bottom: 10px;
+}
+
+.headin{
+margin-bottom: 122px;
+}
+.delbtn{
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.btna{
+  margin-left: 10px;
+}
